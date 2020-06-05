@@ -70,7 +70,6 @@ async function getDataFromPlatzi(email, password, user) {
     </style>
   </head>
   <body>
-  <h1>Hola ${user}, tienes ${coursesFinishedCount} cursos terminados:</h1>
   `;
 
   Object.entries(coursesFinished).forEach(([key, course]) => {
